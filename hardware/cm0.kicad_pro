@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.3
         }
       },
       "diff_pair_dimensions": [
@@ -59,7 +59,7 @@
         },
         {
           "gap": 0.2032,
-          "via_gap": 0.0,
+          "via_gap": 0.2,
           "width": 0.124
         }
       ],
@@ -193,8 +193,10 @@
       ],
       "track_widths": [
         0.0,
+        0.124,
         0.15,
-        0.1565
+        0.1565,
+        0.25
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -539,7 +541,7 @@
       },
       {
         "netclass": "DATA",
-        "pattern": "/DDR3/(~{)?D(Q[MS])?[0123456789]*(})?"
+        "pattern": "/DDR3/DQ[SM]?[0123456789]*\\+?-?"
       },
       {
         "netclass": "COMMAND",
@@ -637,12 +639,24 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
