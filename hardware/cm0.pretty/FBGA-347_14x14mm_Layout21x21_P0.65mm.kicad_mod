@@ -2634,4 +2634,15 @@
 		(uuid "10ba194b-3b8e-4ffc-8eb8-a1a611523ae5")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/cm0.pretty/BGA-347_L14.0-W14.0-R21-C21-P0.65-TL.step"
+		(offset
+			(xyz 0 0 0.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )

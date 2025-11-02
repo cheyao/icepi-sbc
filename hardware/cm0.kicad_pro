@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.3
+          "min_clearance": 0.15
         }
       },
       "diff_pair_dimensions": [
@@ -56,6 +56,11 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.2,
+          "via_gap": 0.0,
+          "width": 0.1062
         },
         {
           "gap": 0.2032,
@@ -194,9 +199,13 @@
       "track_widths": [
         0.0,
         0.124,
+        0.1374,
         0.15,
         0.1565,
-        0.25
+        0.2,
+        0.25,
+        0.4,
+        0.5
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -232,6 +241,10 @@
         {
           "diameter": 0.45,
           "drill": 0.2
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false
@@ -614,19 +627,19 @@
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -638,7 +651,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -651,6 +664,12 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part #",
+          "name": "LCSC Part #",
+          "show": true
         }
       ],
       "filter_string": "",
@@ -712,6 +731,14 @@
     [
       "32a4bb18-2695-4537-bbd4-f872ec13cb53",
       "DDR3"
+    ],
+    [
+      "70db3a50-a0a5-4d0a-8f2e-7c03c0a0ef9b",
+      "Wifi"
+    ],
+    [
+      "f05ec484-f958-442a-a016-134b1e35dc2c",
+      "GPDI"
     ]
   ],
   "text_variables": {}

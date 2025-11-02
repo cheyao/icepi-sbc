@@ -1,0 +1,126 @@
+(footprint "L_SMD_3.0x3.0"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.15 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "36fa7fcb-64a6-4a5d-a218-240e5442291f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_SMD_3.0x3.0"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "596b4116-7a74-4ce8-b6b1-5d05f9e12866")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "73113838-7dad-4db6-bf81-57cbf2411416")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "C19734"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1f432a94-8596-4a8f-89b8-31bf8e826c5f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.7 -1.35)
+		(end 0.7 -1.35)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8f2d30c1-8787-49df-b7fa-7a79c7a47e26")
+	)
+	(fp_line
+		(start -0.7 1.35)
+		(end 0.7 1.35)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "81456413-5f3a-4967-9e96-647b1a082332")
+	)
+	(fp_rect
+		(start -1.6 -1.4)
+		(end 1.6 1.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "6631fdd5-6ccb-446a-8594-a354164915a9")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ec0716ed-5fe3-4a54-898c-09b56878c22b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.15 0)
+		(size 0.8 2.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "6c4c9292-9926-46cd-875a-932f69e719c6")
+	)
+	(pad "2" smd roundrect
+		(at 1.15 0)
+		(size 0.8 2.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "25871f2f-8f93-4d75-a8ef-1f70d823dba6")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/cm0.pretty/IND-SMD_L3.0-W3.0-H1.5.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

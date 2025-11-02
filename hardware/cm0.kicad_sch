@@ -7,6 +7,46 @@
 	(lib_symbols)
 	(bus
 		(pts
+			(xy 93.98 40.64) (xy 101.6 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b1276b5-9014-4974-9de3-1fdcc209ee54")
+	)
+	(bus
+		(pts
+			(xy 124.46 62.23) (xy 132.08 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12fc1f96-bf22-402f-82b5-b83380493bd9")
+	)
+	(wire
+		(pts
+			(xy 124.46 69.85) (xy 132.08 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b53063f-f450-4de4-a5c3-fb645834826f")
+	)
+	(bus
+		(pts
+			(xy 124.46 66.04) (xy 132.08 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "761b5f94-6b47-4183-93b5-b1a428dc6310")
+	)
+	(bus
+		(pts
 			(xy 124.46 36.83) (xy 132.08 36.83)
 		)
 		(stroke
@@ -70,7 +110,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "untitled.kicad_sch"
+		(property "Sheetfile" "ddr3.kicad_sch"
 			(at 132.08 48.8446 0)
 			(effects
 				(font
@@ -128,8 +168,132 @@
 		)
 	)
 	(sheet
-		(at 101.6 33.02)
+		(at 132.08 58.42)
 		(size 22.86 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "70db3a50-a0a5-4d0a-8f2e-7c03c0a0ef9b")
+		(property "Sheetname" "Wifi"
+			(at 132.08 57.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "wifi.kicad_sch"
+			(at 132.08 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "WIFI_32K" input
+			(at 132.08 69.85 180)
+			(uuid "85fe4a53-471e-43bc-87fd-c56e6d1ba5d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{SDIO_WIFI}" bidirectional
+			(at 132.08 62.23 180)
+			(uuid "b7e461d2-d042-4c27-85d6-edf83f02853f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{UART_BT}" bidirectional
+			(at 132.08 66.04 180)
+			(uuid "e855b8e6-6b53-47fd-8c5d-da4cf014b14b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "cm0"
+				(path "/b53f5dbb-8078-4818-9e8f-fdf90ba6d854"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 71.12 33.02)
+		(size 22.86 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f05ec484-f958-442a-a016-134b1e35dc2c")
+		(property "Sheetname" "GPDI"
+			(at 71.12 32.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "gpdi.kicad_sch"
+			(at 71.12 48.8446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{GPDI}" input
+			(at 93.98 40.64 0)
+			(uuid "68e29fe2-08eb-4f7d-9714-7a86b4462026")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "cm0"
+				(path "/b53f5dbb-8078-4818-9e8f-fdf90ba6d854"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 33.02)
+		(size 22.86 40.64)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -153,7 +317,7 @@
 			)
 		)
 		(property "Sheetfile" "cpu.kicad_sch"
-			(at 101.6 48.8446 0)
+			(at 101.6 74.2446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -199,6 +363,46 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "{SDIO_WIFI}" bidirectional
+			(at 124.46 62.23 0)
+			(uuid "21f86a57-21d9-4744-b7e1-befdf25ff771")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{UART_BT}" bidirectional
+			(at 124.46 66.04 0)
+			(uuid "ecad4577-8036-48a4-a6f8-545b975e0f82")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "WIFI_32K" output
+			(at 124.46 69.85 0)
+			(uuid "14e0482f-4874-4f3d-bb9e-9199513bb2b5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{GPDI}" output
+			(at 101.6 40.64 180)
+			(uuid "ab45e475-685c-441a-b785-c25452c45056")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
