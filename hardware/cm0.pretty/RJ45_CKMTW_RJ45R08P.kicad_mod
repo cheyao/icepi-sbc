@@ -415,4 +415,15 @@
 		(uuid "9ac547bf-fc2c-4e7e-a2d6-41d2e5ed8c66")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/cm0.pretty/RJ45-TH_R-RJ45R08P-C000.step"
+		(offset
+			(xyz 0 -5.8 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )

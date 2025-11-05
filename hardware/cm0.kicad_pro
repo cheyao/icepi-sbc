@@ -199,6 +199,7 @@
       "track_widths": [
         0.0,
         0.124,
+        0.1402,
         0.15,
         0.1511,
         0.1565,
@@ -489,7 +490,9 @@
     "pinned_footprint_libs": [
       "cm0"
     ],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "cm0"
+    ]
   },
   "meta": {
     "filename": "cm0.kicad_pro",
@@ -745,6 +748,18 @@
     [
       "62512c11-db29-412e-825e-173059bf3d51",
       "USB"
+    ],
+    [
+      "bbbf0a3c-34ab-4b2d-85d9-faf7e9a88445",
+      "Storage"
+    ],
+    [
+      "4796fa81-9f97-477a-89b6-db3b604885cb",
+      "Power"
+    ],
+    [
+      "452e4208-fdd2-4279-8880-491fefaabe1c",
+      "GPIO"
     ]
   ],
   "text_variables": {}

@@ -1,0 +1,16 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "4d6c681b-cf50-4be6-9187-a83559e0bc01")
+	(paper "A4")
+	(title_block
+		(title "Icepi CM0")
+		(date "2025-11-03")
+		(rev "v1.0")
+		(company "Icy Electronics")
+		(comment 1 "Chengyin Yao (cheyao)")
+		(comment 2 "https://github.com/cheyao/icepi-cm0")
+	)
+	(lib_symbols)
+)

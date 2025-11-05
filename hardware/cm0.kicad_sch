@@ -13,9 +13,31 @@
 		(comment 2 "https://github.com/cheyao/icepi-cm0")
 	)
 	(lib_symbols)
+	(text "H3"
+		(exclude_from_sim no)
+		(at 139.7 104.14 0)
+		(effects
+			(font
+				(face "Fira Sans SemiBold")
+				(size 5 5)
+			)
+		)
+		(uuid "a59f2c61-4ae6-49f7-a3f4-23665f9544b6")
+	)
+	(text "Icepi CM0"
+		(exclude_from_sim no)
+		(at 139.7 23.114 0)
+		(effects
+			(font
+				(face "Fira Sans Medium")
+				(size 7.5 7.5)
+			)
+		)
+		(uuid "de8ea4d3-288e-4dbd-96ad-abe273526089")
+	)
 	(bus
 		(pts
-			(xy 93.98 40.64) (xy 101.6 40.64)
+			(xy 105.41 90.17) (xy 113.03 90.17)
 		)
 		(stroke
 			(width 0)
@@ -25,17 +47,17 @@
 	)
 	(bus
 		(pts
-			(xy 124.46 62.23) (xy 132.08 62.23)
+			(xy 166.37 116.84) (xy 173.99 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "12fc1f96-bf22-402f-82b5-b83380493bd9")
+		(uuid "269da0b4-5a9a-40ba-aeb3-0de572b15d89")
 	)
 	(bus
 		(pts
-			(xy 93.98 66.04) (xy 101.6 66.04)
+			(xy 105.41 115.57) (xy 113.03 115.57)
 		)
 		(stroke
 			(width 0)
@@ -43,29 +65,29 @@
 		)
 		(uuid "299ee8cb-d90f-4fbf-8e82-40d5cea3279b")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 124.46 69.85) (xy 132.08 69.85)
+			(xy 166.37 111.76) (xy 173.99 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3b53063f-f450-4de4-a5c3-fb645834826f")
+		(uuid "81fd1982-9b9f-4ffc-8e82-207892af44fa")
 	)
 	(bus
 		(pts
-			(xy 124.46 66.04) (xy 132.08 66.04)
+			(xy 166.37 114.3) (xy 173.99 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "761b5f94-6b47-4183-93b5-b1a428dc6310")
+		(uuid "8b3660aa-459d-476e-8749-27eeaaf70335")
 	)
 	(bus
 		(pts
-			(xy 124.46 36.83) (xy 132.08 36.83)
+			(xy 166.37 86.36) (xy 173.99 86.36)
 		)
 		(stroke
 			(width 0)
@@ -73,9 +95,19 @@
 		)
 		(uuid "8c80bc53-ea4d-4714-9acc-49d715330b8a")
 	)
+	(wire
+		(pts
+			(xy 166.37 119.38) (xy 173.99 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b51db123-3153-4364-8462-30dfb1575cd2")
+	)
 	(bus
 		(pts
-			(xy 124.46 39.37) (xy 132.08 39.37)
+			(xy 166.37 88.9) (xy 173.99 88.9)
 		)
 		(stroke
 			(width 0)
@@ -85,7 +117,7 @@
 	)
 	(bus
 		(pts
-			(xy 124.46 44.45) (xy 132.08 44.45)
+			(xy 166.37 93.98) (xy 173.99 93.98)
 		)
 		(stroke
 			(width 0)
@@ -95,7 +127,7 @@
 	)
 	(bus
 		(pts
-			(xy 124.46 41.91) (xy 132.08 41.91)
+			(xy 166.37 91.44) (xy 173.99 91.44)
 		)
 		(stroke
 			(width 0)
@@ -104,7 +136,7 @@
 		(uuid "edbd6071-78a4-4d79-81ee-bd317d20a576")
 	)
 	(sheet
-		(at 132.08 33.02)
+		(at 173.99 82.55)
 		(size 22.86 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -120,7 +152,7 @@
 		)
 		(uuid "32a4bb18-2695-4537-bbd4-f872ec13cb53")
 		(property "Sheetname" "DDR3"
-			(at 132.08 32.3084 0)
+			(at 173.99 81.8384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -129,7 +161,7 @@
 			)
 		)
 		(property "Sheetfile" "ddr3.kicad_sch"
-			(at 132.08 48.8446 0)
+			(at 173.99 98.3746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -138,7 +170,7 @@
 			)
 		)
 		(pin "{ADDRESS}" bidirectional
-			(at 132.08 36.83 180)
+			(at 173.99 86.36 180)
 			(uuid "b3d37997-1d4a-4083-bf6c-e059e5aa7a28")
 			(effects
 				(font
@@ -148,7 +180,7 @@
 			)
 		)
 		(pin "{COMMAND}" input
-			(at 132.08 41.91 180)
+			(at 173.99 91.44 180)
 			(uuid "bc20fe1c-cc4a-408b-bd12-2807e045ff8a")
 			(effects
 				(font
@@ -158,7 +190,7 @@
 			)
 		)
 		(pin "{CLOCK}" input
-			(at 132.08 44.45 180)
+			(at 173.99 93.98 180)
 			(uuid "846aa351-112d-428f-8ca8-f6007803d173")
 			(effects
 				(font
@@ -168,7 +200,7 @@
 			)
 		)
 		(pin "{DATA}" bidirectional
-			(at 132.08 39.37 180)
+			(at 173.99 88.9 180)
 			(uuid "bb7a7eb4-c720-4152-9a21-45fc181df5f6")
 			(effects
 				(font
@@ -186,7 +218,91 @@
 		)
 	)
 	(sheet
-		(at 71.12 58.42)
+		(at 143.51 130.81)
+		(size 22.86 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "452e4208-fdd2-4279-8880-491fefaabe1c")
+		(property "Sheetname" "GPIO"
+			(at 143.51 130.0984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "gpio.kicad_sch"
+			(at 143.51 146.6346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "cm0"
+				(path "/b53f5dbb-8078-4818-9e8f-fdf90ba6d854"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 113.03 59.69)
+		(size 22.86 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4796fa81-9f97-477a-89b6-db3b604885cb")
+		(property "Sheetname" "Power"
+			(at 113.03 58.9784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 113.03 75.5146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "cm0"
+				(path "/b53f5dbb-8078-4818-9e8f-fdf90ba6d854"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 82.55 107.95)
 		(size 22.86 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -202,7 +318,7 @@
 		)
 		(uuid "62512c11-db29-412e-825e-173059bf3d51")
 		(property "Sheetname" "USB"
-			(at 71.12 57.7084 0)
+			(at 82.55 107.2384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -211,7 +327,7 @@
 			)
 		)
 		(property "Sheetfile" "usb.kicad_sch"
-			(at 71.12 74.2446 0)
+			(at 82.55 123.7746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -220,7 +336,7 @@
 			)
 		)
 		(pin "{USB}" bidirectional
-			(at 93.98 66.04 0)
+			(at 105.41 115.57 0)
 			(uuid "39fdee15-75b9-4fa4-a448-ca071cd3c5e1")
 			(effects
 				(font
@@ -238,8 +354,8 @@
 		)
 	)
 	(sheet
-		(at 132.08 58.42)
-		(size 22.86 15.24)
+		(at 173.99 107.442)
+		(size 22.86 15.748)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -254,7 +370,7 @@
 		)
 		(uuid "70db3a50-a0a5-4d0a-8f2e-7c03c0a0ef9b")
 		(property "Sheetname" "Wifi"
-			(at 132.08 57.7084 0)
+			(at 173.99 106.7304 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -263,7 +379,7 @@
 			)
 		)
 		(property "Sheetfile" "wifi.kicad_sch"
-			(at 132.08 74.2446 0)
+			(at 173.99 123.7746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -272,7 +388,7 @@
 			)
 		)
 		(pin "WIFI_32K" input
-			(at 132.08 69.85 180)
+			(at 173.99 119.38 180)
 			(uuid "85fe4a53-471e-43bc-87fd-c56e6d1ba5d4")
 			(effects
 				(font
@@ -282,7 +398,7 @@
 			)
 		)
 		(pin "{SDIO_WIFI}" bidirectional
-			(at 132.08 62.23 180)
+			(at 173.99 114.3 180)
 			(uuid "b7e461d2-d042-4c27-85d6-edf83f02853f")
 			(effects
 				(font
@@ -292,8 +408,18 @@
 			)
 		)
 		(pin "{UART_BT}" bidirectional
-			(at 132.08 66.04 180)
+			(at 173.99 116.84 180)
 			(uuid "e855b8e6-6b53-47fd-8c5d-da4cf014b14b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{EPHY}" bidirectional
+			(at 173.99 111.76 180)
+			(uuid "148412c5-fa5e-4869-b5e5-42f394fcf132")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -310,7 +436,49 @@
 		)
 	)
 	(sheet
-		(at 71.12 33.02)
+		(at 113.03 130.81)
+		(size 22.86 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bbbf0a3c-34ab-4b2d-85d9-faf7e9a88445")
+		(property "Sheetname" "Storage"
+			(at 113.03 130.0984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "storage.kicad_sch"
+			(at 113.03 146.6346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "cm0"
+				(path "/b53f5dbb-8078-4818-9e8f-fdf90ba6d854"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 82.55 82.55)
 		(size 22.86 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -326,7 +494,7 @@
 		)
 		(uuid "f05ec484-f958-442a-a016-134b1e35dc2c")
 		(property "Sheetname" "GPDI"
-			(at 71.12 32.3084 0)
+			(at 82.55 81.8384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -335,7 +503,7 @@
 			)
 		)
 		(property "Sheetfile" "gpdi.kicad_sch"
-			(at 71.12 48.8446 0)
+			(at 82.55 98.3746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -344,7 +512,7 @@
 			)
 		)
 		(pin "{GPDI}" input
-			(at 93.98 40.64 0)
+			(at 105.41 90.17 0)
 			(uuid "68e29fe2-08eb-4f7d-9714-7a86b4462026")
 			(effects
 				(font
@@ -362,8 +530,8 @@
 		)
 	)
 	(sheet
-		(at 101.6 33.02)
-		(size 22.86 40.64)
+		(at 113.03 82.55)
+		(size 53.34 40.64)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -378,7 +546,7 @@
 		)
 		(uuid "f68014a7-1ee9-4b8d-9f3d-298c7b89ee9f")
 		(property "Sheetname" "H3"
-			(at 101.6 32.3084 0)
+			(at 113.03 81.8384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -387,7 +555,7 @@
 			)
 		)
 		(property "Sheetfile" "cpu.kicad_sch"
-			(at 101.6 74.2446 0)
+			(at 113.03 123.7746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -396,7 +564,7 @@
 			)
 		)
 		(pin "{ADDRESS}" bidirectional
-			(at 124.46 36.83 0)
+			(at 166.37 86.36 0)
 			(uuid "28aa1e5a-6bd0-4d1a-b2e5-470314909605")
 			(effects
 				(font
@@ -406,7 +574,7 @@
 			)
 		)
 		(pin "{CLOCK}" output
-			(at 124.46 44.45 0)
+			(at 166.37 93.98 0)
 			(uuid "9d36d961-8bfa-4bb5-b190-a52eb6d31850")
 			(effects
 				(font
@@ -416,7 +584,7 @@
 			)
 		)
 		(pin "{DATA}" bidirectional
-			(at 124.46 39.37 0)
+			(at 166.37 88.9 0)
 			(uuid "849b3046-4f9d-45b0-a027-c9a71215d5f4")
 			(effects
 				(font
@@ -426,7 +594,7 @@
 			)
 		)
 		(pin "{COMMAND}" output
-			(at 124.46 41.91 0)
+			(at 166.37 91.44 0)
 			(uuid "d5e7f794-9f97-4993-92d6-308930df7c93")
 			(effects
 				(font
@@ -436,7 +604,7 @@
 			)
 		)
 		(pin "{SDIO_WIFI}" bidirectional
-			(at 124.46 62.23 0)
+			(at 166.37 114.3 0)
 			(uuid "21f86a57-21d9-4744-b7e1-befdf25ff771")
 			(effects
 				(font
@@ -446,7 +614,7 @@
 			)
 		)
 		(pin "{UART_BT}" bidirectional
-			(at 124.46 66.04 0)
+			(at 166.37 116.84 0)
 			(uuid "ecad4577-8036-48a4-a6f8-545b975e0f82")
 			(effects
 				(font
@@ -456,7 +624,7 @@
 			)
 		)
 		(pin "WIFI_32K" output
-			(at 124.46 69.85 0)
+			(at 166.37 119.38 0)
 			(uuid "14e0482f-4874-4f3d-bb9e-9199513bb2b5")
 			(effects
 				(font
@@ -466,7 +634,7 @@
 			)
 		)
 		(pin "{GPDI}" output
-			(at 101.6 40.64 180)
+			(at 113.03 90.17 180)
 			(uuid "ab45e475-685c-441a-b785-c25452c45056")
 			(effects
 				(font
@@ -476,13 +644,23 @@
 			)
 		)
 		(pin "{USB}" bidirectional
-			(at 101.6 66.04 180)
+			(at 113.03 115.57 180)
 			(uuid "917918da-ca50-4f26-8b47-9546ec5ace62")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "{EPHY}" bidirectional
+			(at 166.37 111.76 0)
+			(uuid "84768cd3-e4d7-4d0b-b344-9d9d5c16cbd7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
