@@ -743,24 +743,24 @@
       "DDR3"
     ],
     [
-      "70db3a50-a0a5-4d0a-8f2e-7c03c0a0ef9b",
-      "Wifi"
-    ],
-    [
-      "f05ec484-f958-442a-a016-134b1e35dc2c",
-      "GPDI"
+      "4796fa81-9f97-477a-89b6-db3b604885cb",
+      "Power"
     ],
     [
       "62512c11-db29-412e-825e-173059bf3d51",
       "USB"
     ],
     [
+      "f05ec484-f958-442a-a016-134b1e35dc2c",
+      "GPDI"
+    ],
+    [
       "bbbf0a3c-34ab-4b2d-85d9-faf7e9a88445",
       "Storage"
     ],
     [
-      "4796fa81-9f97-477a-89b6-db3b604885cb",
-      "Power"
+      "70db3a50-a0a5-4d0a-8f2e-7c03c0a0ef9b",
+      "Wifi"
     ],
     [
       "452e4208-fdd2-4279-8880-491fefaabe1c",
@@ -769,6 +769,10 @@
     [
       "5ae223d4-d68f-4671-997c-b9179dc72885",
       "Audio"
+    ],
+    [
+      "af97b066-b216-46e5-8058-9fb521d33019",
+      "Power Tree"
     ]
   ],
   "text_variables": {}

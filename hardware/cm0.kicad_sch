@@ -47,6 +47,16 @@
 	)
 	(bus
 		(pts
+			(xy 151.13 74.93) (xy 151.13 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1596e8e4-f110-4eb8-b190-daa3acb40b51")
+	)
+	(bus
+		(pts
 			(xy 166.37 116.84) (xy 173.99 116.84)
 		)
 		(stroke
@@ -67,6 +77,16 @@
 	)
 	(bus
 		(pts
+			(xy 123.19 74.93) (xy 123.19 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3018903c-2344-4bff-9ace-dbeb533d317b")
+	)
+	(bus
+		(pts
 			(xy 125.73 123.19) (xy 125.73 130.81)
 		)
 		(stroke
@@ -74,6 +94,16 @@
 			(type default)
 		)
 		(uuid "3c58e3dc-22e3-4a2d-a870-bd245fd81f06")
+	)
+	(bus
+		(pts
+			(xy 151.13 123.19) (xy 151.13 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a7fca05-d167-4f24-9ee4-d64a040ea359")
 	)
 	(bus
 		(pts
@@ -127,6 +157,16 @@
 	)
 	(bus
 		(pts
+			(xy 123.19 123.19) (xy 123.19 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1b890d0-5f40-4e07-8745-d2925debeded")
+	)
+	(bus
+		(pts
 			(xy 166.37 93.98) (xy 173.99 93.98)
 		)
 		(stroke
@@ -144,16 +184,6 @@
 			(type default)
 		)
 		(uuid "edbd6071-78a4-4d79-81ee-bd317d20a576")
-	)
-	(bus
-		(pts
-			(xy 121.92 123.19) (xy 121.92 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f20d7b01-7db3-4072-8d0c-6b6faa1c3adb")
 	)
 	(sheet
 		(at 173.99 82.55)
@@ -271,6 +301,16 @@
 				(justify left top)
 			)
 		)
+		(pin "{CPU_UART}" bidirectional
+			(at 151.13 130.81 90)
+			(uuid "b47a4fac-2ddd-449c-8015-1a221d1effbf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "cm0"
 				(path "/b53f5dbb-8078-4818-9e8f-fdf90ba6d854"
@@ -313,10 +353,20 @@
 				(justify left top)
 			)
 		)
+		(pin "{PWR_CTRL}" input
+			(at 123.19 74.93 270)
+			(uuid "64127132-6cf3-4de1-8370-3bb161fcdcf7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "cm0"
 				(path "/b53f5dbb-8078-4818-9e8f-fdf90ba6d854"
-					(page "8")
+					(page "4")
 				)
 			)
 		)
@@ -353,6 +403,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "{AUDIO}" bidirectional
+			(at 151.13 74.93 270)
+			(uuid "a2be69c0-2f49-4e23-8d0a-34e923d98e0a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -410,7 +470,7 @@
 		(instances
 			(project "cm0"
 				(path "/b53f5dbb-8078-4818-9e8f-fdf90ba6d854"
-					(page "6")
+					(page "5")
 				)
 			)
 		)
@@ -492,7 +552,7 @@
 		(instances
 			(project "cm0"
 				(path "/b53f5dbb-8078-4818-9e8f-fdf90ba6d854"
-					(page "4")
+					(page "8")
 				)
 			)
 		)
@@ -532,7 +592,7 @@
 			)
 		)
 		(pin "{eMMC}" bidirectional
-			(at 121.92 130.81 90)
+			(at 123.19 130.81 90)
 			(uuid "7632f076-4fce-41b0-83c8-cc13eacb227e")
 			(effects
 				(font
@@ -606,7 +666,7 @@
 		(instances
 			(project "cm0"
 				(path "/b53f5dbb-8078-4818-9e8f-fdf90ba6d854"
-					(page "5")
+					(page "6")
 				)
 			)
 		)
@@ -746,7 +806,7 @@
 			)
 		)
 		(pin "{eMMC}" bidirectional
-			(at 121.92 123.19 270)
+			(at 123.19 123.19 270)
 			(uuid "bfe8f267-4d4b-4815-bed6-004b672c5e16")
 			(effects
 				(font
@@ -763,6 +823,36 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "{AUDIO}" bidirectional
+			(at 151.13 82.55 90)
+			(uuid "2c0aac8c-ac3a-4e94-b6fe-75ea255b8040")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{CPU_UART}" bidirectional
+			(at 151.13 123.19 270)
+			(uuid "9aaef992-8828-471a-b862-742749a8ddab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{PWR_CTRL}" output
+			(at 123.19 82.55 90)
+			(uuid "6296a20f-67d0-4080-b709-032a1f75e521")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

@@ -1,0 +1,629 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "9316c606-8d4b-40a3-ba82-5b69f4cfa9b7")
+	(paper "A4")
+	(title_block
+		(title "Icepi CM0")
+		(date "2025-11-03")
+		(rev "v1.0")
+		(company "Icy Electronics")
+		(comment 1 "Chengyin Yao (cheyao)")
+		(comment 2 "https://github.com/cheyao/icepi-cm0")
+	)
+	(lib_symbols)
+	(text "1.2V/2A"
+		(exclude_from_sim no)
+		(at 142.494 67.056 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3abfaeec-6bcb-46c9-88a3-ff77ade1a559")
+	)
+	(text "3.3V/1A"
+		(exclude_from_sim no)
+		(at 142.494 92.456 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5376974c-43ce-422c-b273-0aa67b400afb")
+	)
+	(text "3.3V/2A"
+		(exclude_from_sim no)
+		(at 142.494 105.156 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7c57b11a-7789-479e-a103-1449138f2901")
+	)
+	(text "1.5V/1A"
+		(exclude_from_sim no)
+		(at 142.24 54.356 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a191fa66-d949-42ad-99c0-7ef1eed7f9b4")
+	)
+	(text "1.3V/3A"
+		(exclude_from_sim no)
+		(at 142.24 79.756 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b9731e8a-0131-40dd-bb2c-934e7d6f2d12")
+	)
+	(text "H3 Debugging Guide"
+		(exclude_from_sim no)
+		(at 48.006 16.764 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(href "http://file.whycan.com/files/members/3465/H3%20HOMLET%20Hardware%20debugging%20guide%20V1_0%2020141113.pdf")
+		)
+		(uuid "ca01954f-b11e-4954-8127-8719c14a22ba")
+	)
+	(text "3.3V/2A"
+		(exclude_from_sim no)
+		(at 142.494 117.856 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d9835f5e-4e28-4f1d-9665-cbe818f1bc68")
+	)
+	(text_box "DRAM"
+		(exclude_from_sim no)
+		(at 156.972 50.8 0)
+		(size 15.24 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Fira Sans SemiBold")
+				(size 1.5 1.5)
+			)
+		)
+		(uuid "21d74fe5-0545-4765-8360-cf14cd90bce0")
+	)
+	(text_box "SY8089A"
+		(exclude_from_sim no)
+		(at 127 63.5 0)
+		(size 15.24 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Fira Sans SemiBold")
+				(size 1.5 1.5)
+			)
+		)
+		(uuid "27d98619-7157-4f5d-ac21-049722d34b19")
+	)
+	(text_box "SY8089A"
+		(exclude_from_sim no)
+		(at 127 101.6 0)
+		(size 15.24 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Fira Sans SemiBold")
+				(size 1.5 1.5)
+			)
+		)
+		(uuid "2e16f554-b09a-4229-8052-ef1373cdcd0b")
+	)
+	(text_box "VCC-IO      3.3v\nAVCC        3.3v\nVCC-RTC     3.3v\nVCC3V-PLL   3.3v\nVCC3V-TV    3.3v\nVCC-DRAM    1.5v\nVDD-CPUX    1.3v\nVDD1V1-EPHY 1.2v\nVDD1V2-SYS  1.2v"
+		(exclude_from_sim no)
+		(at 15.24 15.24 0)
+		(size 20.32 20.32)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Fira Code")
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "2fbcfc27-5679-4478-bcd1-bffe08a51832")
+	)
+	(text_box "SY8088"
+		(exclude_from_sim no)
+		(at 127 88.9 0)
+		(size 15.24 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Fira Sans SemiBold")
+				(size 1.5 1.5)
+			)
+		)
+		(uuid "3a5c3e71-68cc-41fb-858f-a9192588e2e5")
+	)
+	(text_box "AVCC"
+		(exclude_from_sim no)
+		(at 157.48 114.554 0)
+		(size 15.24 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Fira Sans SemiBold")
+				(size 1.5 1.5)
+			)
+		)
+		(uuid "4f80669f-c6c9-4df4-9798-6496c7389ad6")
+	)
+	(text_box "SY8089A"
+		(exclude_from_sim no)
+		(at 127 114.3 0)
+		(size 15.24 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Fira Sans SemiBold")
+				(size 1.5 1.5)
+			)
+		)
+		(uuid "573ca7e1-efa9-42ba-b5c6-6dc1eedaebb4")
+	)
+	(text_box "USB-C PD\n5V/5A\n(25W)"
+		(exclude_from_sim no)
+		(at 101.6 50.8 0)
+		(size 15.24 71.12)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Fira Sans SemiBold")
+				(size 1.5 1.5)
+			)
+		)
+		(uuid "6d6db762-1ff1-429a-acc1-811ec9301fb7")
+	)
+	(text_box "SY8113"
+		(exclude_from_sim no)
+		(at 127 76.2 0)
+		(size 15.24 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Fira Sans SemiBold")
+				(size 1.5 1.5)
+			)
+		)
+		(uuid "8c45bfaf-f924-43c4-ac76-b464329303fe")
+	)
+	(text_box "VCC-CPUX"
+		(exclude_from_sim no)
+		(at 156.972 76.2 0)
+		(size 15.24 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Fira Sans SemiBold")
+				(size 1.5 1.5)
+			)
+		)
+		(uuid "90545725-e4ce-4837-b77d-e31b6312aa01")
+	)
+	(text_box "VCC-IO"
+		(exclude_from_sim no)
+		(at 157.48 101.6 0)
+		(size 15.24 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Fira Sans SemiBold")
+				(size 1.5 1.5)
+			)
+		)
+		(uuid "adc4e354-9b8b-4825-a4a5-17cddc6ec461")
+	)
+	(text_box "RTC"
+		(exclude_from_sim no)
+		(at 157.48 127 0)
+		(size 15.24 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Fira Sans SemiBold")
+				(size 1.5 1.5)
+			)
+		)
+		(uuid "b507091f-a092-4bee-9ddc-2d0d8838fc67")
+	)
+	(text_box "SY8088      1A\nSY8089A     2A\nSY8113B     3A"
+		(exclude_from_sim no)
+		(at 15.24 40.64 0)
+		(size 20.574 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Fira Code")
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "b5ac40c7-d403-42d5-a059-0c96037184f8")
+	)
+	(text_box "SYSTEM"
+		(exclude_from_sim no)
+		(at 157.226 63.5 0)
+		(size 15.24 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Fira Sans SemiBold")
+				(size 1.5 1.5)
+			)
+		)
+		(uuid "dac4dafe-eb42-465e-924d-10341d5d4064")
+	)
+	(text_box "VCC-WIFI"
+		(exclude_from_sim no)
+		(at 157.226 88.9 0)
+		(size 15.24 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Fira Sans SemiBold")
+				(size 1.5 1.5)
+			)
+		)
+		(uuid "f3da7429-e073-4e1e-9a52-654c400bd467")
+	)
+	(text_box "SY8088"
+		(exclude_from_sim no)
+		(at 127 50.8 0)
+		(size 15.24 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Fira Sans SemiBold")
+				(size 1.5 1.5)
+			)
+		)
+		(uuid "f4f391f1-6b2b-4313-a33f-9709ff9cd2b6")
+	)
+	(polyline
+		(pts
+			(xy 116.84 105.41) (xy 127 105.41)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "02afc97a-32db-4b0b-880a-a9f184b42ebd")
+	)
+	(polyline
+		(pts
+			(xy 142.24 92.71) (xy 149.86 92.71)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "0e1bc9e3-21c8-4628-8f04-b55913860d42")
+	)
+	(polyline
+		(pts
+			(xy 142.24 67.31) (xy 149.86 67.31)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "17105089-2c11-4903-8a35-41395a11af6e")
+	)
+	(polyline
+		(pts
+			(xy 149.352 54.61) (xy 156.972 54.61)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "1a487851-0397-4536-9b46-1d40f8e5d3a5")
+	)
+	(polyline
+		(pts
+			(xy 116.84 118.11) (xy 127 118.11)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "26408683-ba3d-459a-a307-29ac9c57d9e3")
+	)
+	(polyline
+		(pts
+			(xy 149.86 130.81) (xy 149.86 118.11)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "64873e53-aadc-41b7-9ed9-12e58f5e2d49")
+	)
+	(polyline
+		(pts
+			(xy 149.352 80.01) (xy 156.972 80.01)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "66cb4a5a-1421-4c1d-a4f8-aee43e2bc68f")
+	)
+	(polyline
+		(pts
+			(xy 116.84 67.31) (xy 127 67.31)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "8770bf1e-ae62-4a04-bd96-676857f72237")
+	)
+	(polyline
+		(pts
+			(xy 116.84 54.61) (xy 127 54.61)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "9afb73f5-8d50-4613-a98e-c1cc239353df")
+	)
+	(polyline
+		(pts
+			(xy 142.24 105.41) (xy 149.86 105.41)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "b404dcb8-7136-4815-b19e-46019379db34")
+	)
+	(polyline
+		(pts
+			(xy 149.606 67.31) (xy 157.226 67.31)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "b53963ab-7d1a-4f07-b317-06121ebc73eb")
+	)
+	(polyline
+		(pts
+			(xy 116.84 92.71) (xy 127 92.71)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "bb164f6d-4f8b-47e6-9f0e-a3c0b3150228")
+	)
+	(polyline
+		(pts
+			(xy 142.24 118.11) (xy 149.86 118.11)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "c3f5ee2d-4cf4-4f14-bbd8-cd0c33daa8a3")
+	)
+	(polyline
+		(pts
+			(xy 157.48 130.81) (xy 149.86 130.81)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "cea65e06-b0e1-4b30-9fc9-22ae5848f6c6")
+	)
+	(polyline
+		(pts
+			(xy 141.986 54.61) (xy 149.606 54.61)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "d70626b0-4fa1-46ae-a419-b4cba28fec81")
+	)
+	(polyline
+		(pts
+			(xy 149.606 92.71) (xy 157.226 92.71)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "d7e8455f-ac02-4803-9f77-9e68ab6761e9")
+	)
+	(polyline
+		(pts
+			(xy 116.84 80.01) (xy 127 80.01)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "d841ee1e-a475-4646-a20f-906c31a9592e")
+	)
+	(polyline
+		(pts
+			(xy 149.86 105.41) (xy 157.48 105.41)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "dc57ed08-a144-4d62-a5f4-0cc6237a3ca5")
+	)
+	(polyline
+		(pts
+			(xy 149.86 118.11) (xy 157.48 118.11)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "fb367750-c784-4d6e-aa2e-a531636f9927")
+	)
+	(polyline
+		(pts
+			(xy 141.986 80.01) (xy 149.606 80.01)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "fe666297-c1f4-4d5e-acf2-f22f91c63c2d")
+	)
+)
