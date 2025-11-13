@@ -2394,12 +2394,6 @@
 		(uuid "13bc5cc4-8cf0-4da0-91ea-da607c5d4809")
 	)
 	(junction
-		(at 104.14 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "18854cba-01b6-45c0-a143-0e0ff2855f22")
-	)
-	(junction
 		(at 243.84 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3605,16 +3599,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 52.07) (xy 114.3 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5663d704-ad65-45b1-8308-9e5facc4ad84")
-	)
-	(wire
-		(pts
 			(xy 243.84 107.95) (xy 243.84 109.22)
 		)
 		(stroke
@@ -4363,16 +4347,6 @@
 		)
 		(uuid "a4258629-1ba4-4e60-bb8f-6972c73ac411")
 	)
-	(wire
-		(pts
-			(xy 114.3 60.96) (xy 114.3 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a431737a-2735-437c-b487-b8cf0f55f974")
-	)
 	(bus
 		(pts
 			(xy 123.19 78.74) (xy 123.19 76.2)
@@ -4832,16 +4806,6 @@
 			(type default)
 		)
 		(uuid "eb67c999-bf50-4973-a408-12112c043d13")
-	)
-	(wire
-		(pts
-			(xy 104.14 52.07) (xy 114.3 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eba297a8-f20c-49c7-bc92-1e299e39615a")
 	)
 	(wire
 		(pts
@@ -12006,102 +11970,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 114.3 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3f74bd0f-8a0f-40af-b75d-d234bd58acca")
-		(property "Reference" "C41"
-			(at 115.062 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 115.062 59.436 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 115.2652 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 114.3 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 114.3 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C1525"
-			(at 114.3 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FT Position Offset" ""
-			(at 114.3 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FT Rotation Offset" ""
-			(at 114.3 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f52cbd31-2ae9-438c-bdd5-e1f5aeb067e3")
-		)
-		(pin "1"
-			(uuid "4f3b51f8-57a3-48f6-861f-76a705fee79c")
-		)
-		(instances
-			(project "cm0"
-				(path "/b53f5dbb-8078-4818-9e8f-fdf90ba6d854/32a4bb18-2695-4537-bbd4-f872ec13cb53"
-					(reference "C41")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 187.96 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12996,71 +12864,6 @@
 			(project "cm0"
 				(path "/b53f5dbb-8078-4818-9e8f-fdf90ba6d854/32a4bb18-2695-4537-bbd4-f872ec13cb53"
 					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 114.3 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7a3f6b74-2f3d-4dfa-9965-83376d9915c7")
-		(property "Reference" "#PWR050"
-			(at 114.3 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 114.3 66.294 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "156aefed-5547-45b4-b398-e1708c144e8f")
-		)
-		(instances
-			(project "cm0"
-				(path "/b53f5dbb-8078-4818-9e8f-fdf90ba6d854/32a4bb18-2695-4537-bbd4-f872ec13cb53"
-					(reference "#PWR050")
 					(unit 1)
 				)
 			)
