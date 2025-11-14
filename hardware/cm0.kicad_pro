@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 1.7,
-          "width": 1.7
+          "drill": 0.0,
+          "height": 1.6,
+          "width": 0.8
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -204,12 +204,14 @@
       "track_widths": [
         0.0,
         0.1,
+        0.1402,
         0.15,
         0.1511,
         0.1565,
         0.1618,
         0.2,
         0.25,
+        0.3,
         0.4,
         0.5
       ],
@@ -655,7 +657,7 @@
           "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -691,6 +693,12 @@
           "group_by": false,
           "label": "FT Position Offset",
           "name": "FT Position Offset",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
           "show": false
         }
       ],

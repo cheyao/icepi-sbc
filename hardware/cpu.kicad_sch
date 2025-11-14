@@ -23263,7 +23263,7 @@
 		(uuid "3ad3fc33-5314-44d3-9f97-91c9ce76dcc5")
 	)
 	(bus_entry
-		(at 302.26 154.94)
+		(at 302.26 228.6)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -23371,7 +23371,7 @@
 		(uuid "56e6748d-53aa-4fd5-93b1-5033c37d9474")
 	)
 	(bus_entry
-		(at 302.26 182.88)
+		(at 302.26 134.62)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -24521,7 +24521,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 182.88) (xy 316.23 182.88)
+			(xy 302.26 134.62) (xy 316.23 134.62)
 		)
 		(stroke
 			(width 0)
@@ -24751,7 +24751,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 154.94) (xy 316.23 154.94)
+			(xy 302.26 228.6) (xy 316.23 228.6)
 		)
 		(stroke
 			(width 0)
@@ -25261,7 +25261,7 @@
 	)
 	(bus
 		(pts
-			(xy 299.72 152.4) (xy 298.45 152.4)
+			(xy 299.72 226.06) (xy 298.45 226.06)
 		)
 		(stroke
 			(width 0)
@@ -29461,7 +29461,7 @@
 	)
 	(bus
 		(pts
-			(xy 299.72 180.34) (xy 298.45 180.34)
+			(xy 299.72 132.08) (xy 298.45 132.08)
 		)
 		(stroke
 			(width 0)
@@ -30450,7 +30450,7 @@
 		(uuid "178e7371-66e5-46cf-81ec-9488593ef635")
 	)
 	(label "BT_WAKE"
-		(at 304.8 182.88 0)
+		(at 304.8 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -30970,7 +30970,7 @@
 		(uuid "6353b21b-388e-4835-b067-1a8ceecb0b69")
 	)
 	(label "~{BT_RST}"
-		(at 304.8 154.94 0)
+		(at 304.8 228.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -32189,7 +32189,7 @@
 	)
 	(hierarchical_label "{UART_BT}"
 		(shape bidirectional)
-		(at 298.45 152.4 180)
+		(at 298.45 226.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -32255,7 +32255,7 @@
 	)
 	(hierarchical_label "{UART_BT}"
 		(shape bidirectional)
-		(at 298.45 180.34 180)
+		(at 298.45 132.08 180)
 		(effects
 			(font
 				(size 1.27 1.27)
