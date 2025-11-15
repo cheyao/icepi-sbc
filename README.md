@@ -2,6 +2,8 @@
 
 A low-cost carrier board for the H3 CPU. It let's you have a cheap yet powerful Linux/Android device on your hand.
 
+The PCB is 4 layers ensuring minimal cost and overhead during production.
+
 ![](https://hc-cdn.hel1.your-objectstorage.com/s/v3/65acf57737127a090191e2a362e5340783381ce1_image.png)
 
 ## Features
