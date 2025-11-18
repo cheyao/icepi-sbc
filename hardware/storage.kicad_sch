@@ -5996,7 +5996,7 @@
 				)
 			)
 		)
-		(property "Value" "56k"
+		(property "Value" "47k"
 			(at 84.836 74.93 90)
 			(effects
 				(font
@@ -6031,7 +6031,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C25796"
+		(property "LCSC Part #" "C25792"
 			(at 82.55 74.93 90)
 			(effects
 				(font
@@ -6298,7 +6298,7 @@
 				(hide yes)
 			)
 		)
-		(property "FT Position Offset" "-1.905,0"
+		(property "FT Position Offset" "0,0.381"
 			(at 120.65 99.06 0)
 			(effects
 				(font
@@ -6796,7 +6796,7 @@
 				)
 			)
 		)
-		(property "Value" "56k"
+		(property "Value" "47k"
 			(at 89.916 74.93 90)
 			(effects
 				(font
@@ -6831,7 +6831,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C25796"
+		(property "LCSC Part #" "C25792"
 			(at 87.63 74.93 90)
 			(effects
 				(font
@@ -7010,7 +7010,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C5821038"
+		(property "LCSC Part #" "C2830403"
 			(at 196.85 96.52 0)
 			(effects
 				(font

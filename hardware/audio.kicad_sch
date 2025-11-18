@@ -1364,7 +1364,7 @@
 				(hide yes)
 			)
 		)
-		(property "FT Position Offset" "-0.3175,0.4445"
+		(property "FT Position Offset" "-2.57175,-0.03175"
 			(at 125.73 93.98 0)
 			(effects
 				(font

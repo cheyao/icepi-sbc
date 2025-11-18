@@ -6894,7 +6894,7 @@
 		(dnp no)
 		(uuid "4508931d-d1c2-4192-8796-96400ecc97a3")
 		(property "Reference" "C107"
-			(at 73.66 137.1601 0)
+			(at 73.406 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6903,7 +6903,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 73.66 134.6201 0)
+			(at 73.406 137.1601 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6991,7 +6991,7 @@
 		(dnp no)
 		(uuid "48c08b5c-b2a3-4fa0-b06d-8d7aa1fa7e32")
 		(property "Reference" "C96"
-			(at 96.52 30.4799 0)
+			(at 97.028 30.4798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7000,7 +7000,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 96.52 33.0199 0)
+			(at 97.028 33.0198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7916,7 +7916,7 @@
 		(dnp no)
 		(uuid "70a76fd1-6431-4aca-bdf4-55812e61a367")
 		(property "Reference" "C105"
-			(at 97.79 90.1699 0)
+			(at 98.552 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7925,7 +7925,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 97.79 92.7099 0)
+			(at 98.552 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8294,7 +8294,7 @@
 		(dnp no)
 		(uuid "80b4af03-d4d2-47ee-94ce-a36ab627d664")
 		(property "Reference" "C104"
-			(at 86.36 92.7101 0)
+			(at 87.122 90.1701 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8303,7 +8303,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 86.36 90.1701 0)
+			(at 87.122 92.7101 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8550,7 +8550,7 @@
 		(dnp no)
 		(uuid "88221940-3242-4b83-b111-98a6e5840088")
 		(property "Reference" "C101"
-			(at 223.52 66.0401 0)
+			(at 223.52 63.5001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8559,7 +8559,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 223.52 63.5001 0)
+			(at 223.52 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9089,7 +9089,7 @@
 		(dnp no)
 		(uuid "ad7d709d-8d61-474f-997a-73fddd17595a")
 		(property "Reference" "C95"
-			(at 85.09 33.0201 0)
+			(at 85.598 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9098,7 +9098,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 85.09 30.4801 0)
+			(at 85.598 33.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9481,7 +9481,7 @@
 		(dnp no)
 		(uuid "c9ea4bd3-9917-4885-8dfa-104687195164")
 		(property "Reference" "C98"
-			(at 223.52 33.0201 0)
+			(at 223.52 30.4801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9490,7 +9490,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 223.52 30.4801 0)
+			(at 223.52 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
