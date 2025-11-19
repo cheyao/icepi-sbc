@@ -22925,8 +22925,32 @@
 		(uuid "57436fdd-e775-470e-a7e9-0856a8649640")
 	)
 	(no_connect
+		(at 369.57 134.62)
+		(uuid "57f63c08-89c1-4ad7-938a-c3f3dbca3c2f")
+	)
+	(no_connect
+		(at 369.57 142.24)
+		(uuid "5a575120-84eb-43f3-8b5f-fb59bc2b8db6")
+	)
+	(no_connect
 		(at 53.34 121.92)
 		(uuid "5f6e69dc-4cfc-49c9-b0bf-17c3eb7f57b9")
+	)
+	(no_connect
+		(at 369.57 157.48)
+		(uuid "63b12f3d-a1d4-4c68-9f7e-3cbcb05caa5e")
+	)
+	(no_connect
+		(at 369.57 132.08)
+		(uuid "64db64f5-d60b-45a0-a91b-e55004a0aea7")
+	)
+	(no_connect
+		(at 369.57 152.4)
+		(uuid "6790773e-23c5-476b-a202-e9770eca30ee")
+	)
+	(no_connect
+		(at 369.57 154.94)
+		(uuid "68c0c9df-3131-49fc-8ef8-174d05a1faf3")
 	)
 	(no_connect
 		(at 243.84 138.43)
@@ -22937,8 +22961,20 @@
 		(uuid "8544e8e2-7d2c-4118-b1eb-7bd218103235")
 	)
 	(no_connect
+		(at 369.57 149.86)
+		(uuid "96abdca1-2266-420f-a41e-82f288a715d8")
+	)
+	(no_connect
 		(at 369.57 203.2)
 		(uuid "978f32fd-d4ce-47a6-97a9-0e462756e1fe")
+	)
+	(no_connect
+		(at 369.57 160.02)
+		(uuid "a446d1c4-4b3a-4884-9084-c32a6bcfa4c9")
+	)
+	(no_connect
+		(at 369.57 167.64)
+		(uuid "a9ab975f-bea3-4bf8-ae5b-df95da44c410")
 	)
 	(no_connect
 		(at 274.32 80.01)
@@ -22949,8 +22985,16 @@
 		(uuid "b0727caf-051e-4729-8dc5-5159b02d436a")
 	)
 	(no_connect
+		(at 369.57 144.78)
+		(uuid "b6f17efd-4191-4006-bd81-c80a514b8708")
+	)
+	(no_connect
 		(at 309.88 58.42)
 		(uuid "b9257ab7-0b83-4bae-9705-edfb5ee04ded")
+	)
+	(no_connect
+		(at 369.57 137.16)
+		(uuid "b9699ad8-4484-406d-8ccb-dadfaca2f393")
 	)
 	(no_connect
 		(at 350.52 66.04)
@@ -22959,6 +23003,14 @@
 	(no_connect
 		(at 369.57 165.1)
 		(uuid "badd541f-1196-4f46-ad72-f8e03c204a5c")
+	)
+	(no_connect
+		(at 369.57 162.56)
+		(uuid "c3e04628-52b2-415e-9c09-0daa1a201919")
+	)
+	(no_connect
+		(at 369.57 139.7)
+		(uuid "cb3199d9-ab57-4c07-ac84-d7e3bd20a968")
 	)
 	(no_connect
 		(at 386.08 58.42)
@@ -22991,6 +23043,10 @@
 	(no_connect
 		(at 350.52 60.96)
 		(uuid "fa4ae489-cdc2-4855-8cef-c7530ffede96")
+	)
+	(no_connect
+		(at 369.57 147.32)
+		(uuid "feac80b8-09a5-46d8-bc9f-19a34af68062")
 	)
 	(bus_entry
 		(at 43.18 45.72)
@@ -27452,7 +27508,7 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 134.62) (xy 275.59 135.89)
+			(xy 275.59 135.89) (xy 275.59 137.16)
 		)
 		(stroke
 			(width 0)
@@ -29472,7 +29528,7 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 143.51) (xy 275.59 148.59)
+			(xy 275.59 144.78) (xy 275.59 148.59)
 		)
 		(stroke
 			(width 0)
@@ -35455,10 +35511,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "07321e5a-b152-4828-96a8-a739073018e2")
 		(property "Reference" "R61"
-			(at 269.24 134.6199 0)
+			(at 268.478 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35466,8 +35521,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47k"
-			(at 269.24 137.1599 0)
+		(property "Value" "56k"
+			(at 268.478 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35502,7 +35557,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C25792"
+		(property "LCSC Part #" "C25796"
 			(at 266.7 135.89 0)
 			(effects
 				(font
@@ -36767,7 +36822,7 @@
 	)
 	(symbol
 		(lib_id "cm0:+3V3_AVCC")
-		(at 275.59 134.62 0)
+		(at 275.59 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -36776,7 +36831,7 @@
 		(fields_autoplaced yes)
 		(uuid "27df5d64-442f-4b15-b659-fec42fab1da6")
 		(property "Reference" "#PWR0161"
-			(at 275.59 138.43 0)
+			(at 275.59 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36785,7 +36840,7 @@
 			)
 		)
 		(property "Value" "+3V3_AVCC"
-			(at 275.59 129.54 0)
+			(at 275.59 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36793,7 +36848,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 275.59 134.62 0)
+			(at 275.59 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36802,7 +36857,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 275.59 134.62 0)
+			(at 275.59 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36811,7 +36866,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3_AVCC\""
-			(at 275.59 134.62 0)
+			(at 275.59 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38498,7 +38553,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 275.59 139.7 0)
+		(at 275.59 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -38506,7 +38561,7 @@
 		(dnp no)
 		(uuid "58a6528f-439f-47f7-be5e-e9614e4a2911")
 		(property "Reference" "R62"
-			(at 277.368 138.684 0)
+			(at 277.368 139.954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38515,7 +38570,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 277.368 140.716 0)
+			(at 277.368 141.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38524,7 +38579,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 273.812 139.7 90)
+			(at 273.812 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38533,7 +38588,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 275.59 139.7 0)
+			(at 275.59 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38542,7 +38597,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 275.59 139.7 0)
+			(at 275.59 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38551,7 +38606,7 @@
 			)
 		)
 		(property "LCSC Part #" "C25741"
-			(at 275.59 139.7 90)
+			(at 275.59 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38560,7 +38615,7 @@
 			)
 		)
 		(property "FT Position Offset" ""
-			(at 275.59 139.7 0)
+			(at 275.59 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38569,7 +38624,7 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 275.59 139.7 0)
+			(at 275.59 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51620,7 +51675,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47k"
+		(property "Value" "56k"
 			(at 397.51 241.2999 0)
 			(effects
 				(font
@@ -51656,7 +51711,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C25792"
+		(property "LCSC Part #" "C25796"
 			(at 394.97 240.03 0)
 			(effects
 				(font
@@ -52303,7 +52358,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47k"
+		(property "Value" "56k"
 			(at 220.98 114.2999 0)
 			(effects
 				(font
@@ -52339,7 +52394,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C25792"
+		(property "LCSC Part #" "C25796"
 			(at 218.44 113.03 0)
 			(effects
 				(font
@@ -52562,7 +52617,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47k"
+		(property "Value" "56k"
 			(at 242.57 114.2999 0)
 			(effects
 				(font
@@ -52598,7 +52653,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C25792"
+		(property "LCSC Part #" "C25796"
 			(at 240.03 113.03 0)
 			(effects
 				(font

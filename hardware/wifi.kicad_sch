@@ -7393,7 +7393,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10pF"
+		(property "Value" "15pF"
 			(at 186.944 73.406 90)
 			(effects
 				(font
@@ -7429,7 +7429,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C32949"
+		(property "LCSC Part #" "C1548"
 			(at 185.42 74.93 90)
 			(effects
 				(font
@@ -7648,7 +7648,7 @@
 				)
 			)
 		)
-		(property "Value" "33k"
+		(property "Value" "30k"
 			(at 89.916 35.56 90)
 			(effects
 				(font
@@ -7683,7 +7683,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C25779"
+		(property "LCSC Part #" "C25553"
 			(at 87.63 35.56 90)
 			(effects
 				(font
@@ -7968,7 +7968,7 @@
 				)
 			)
 		)
-		(property "Value" "33k"
+		(property "Value" "30k"
 			(at 105.156 35.56 90)
 			(effects
 				(font
@@ -8003,7 +8003,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C25779"
+		(property "LCSC Part #" "C25553"
 			(at 102.87 35.56 90)
 			(effects
 				(font
@@ -8418,7 +8418,7 @@
 				)
 			)
 		)
-		(property "Value" "33k"
+		(property "Value" "30k"
 			(at 110.236 35.56 90)
 			(effects
 				(font
@@ -8453,7 +8453,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C25779"
+		(property "LCSC Part #" "C25553"
 			(at 107.95 35.56 90)
 			(effects
 				(font
@@ -9498,7 +9498,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10pF"
+		(property "Value" "15pF"
 			(at 186.944 86.614 90)
 			(effects
 				(font
@@ -9534,7 +9534,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C32949"
+		(property "LCSC Part #" "C1548"
 			(at 185.42 85.09 90)
 			(effects
 				(font
@@ -10181,7 +10181,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C7294683"
+		(property "LCSC Part #" "C7301948"
 			(at 175.26 80.01 90)
 			(effects
 				(font
@@ -10248,7 +10248,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100pF"
+		(property "Value" "1nF"
 			(at 218.44 63.4999 0)
 			(effects
 				(font
@@ -10284,7 +10284,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C1546"
+		(property "LCSC Part #" "C1523"
 			(at 222.25 62.23 0)
 			(effects
 				(font
@@ -10820,7 +10820,7 @@
 				)
 			)
 		)
-		(property "Value" "33k"
+		(property "Value" "30k"
 			(at 94.996 35.56 90)
 			(effects
 				(font
@@ -10855,7 +10855,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C25779"
+		(property "LCSC Part #" "C25553"
 			(at 92.71 35.56 90)
 			(effects
 				(font
@@ -11230,7 +11230,7 @@
 				)
 			)
 		)
-		(property "Value" "10pF"
+		(property "Value" "15pF"
 			(at 176.53 46.99 90)
 			(effects
 				(font
@@ -11265,7 +11265,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C32949"
+		(property "LCSC Part #" "C1548"
 			(at 176.53 52.07 90)
 			(effects
 				(font
@@ -11419,7 +11419,7 @@
 				)
 			)
 		)
-		(property "Value" "33k"
+		(property "Value" "30k"
 			(at 100.076 35.56 90)
 			(effects
 				(font
@@ -11454,7 +11454,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C25779"
+		(property "LCSC Part #" "C25553"
 			(at 97.79 35.56 90)
 			(effects
 				(font

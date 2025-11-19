@@ -5996,7 +5996,7 @@
 				)
 			)
 		)
-		(property "Value" "47k"
+		(property "Value" "56k"
 			(at 84.836 74.93 90)
 			(effects
 				(font
@@ -6031,7 +6031,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C25792"
+		(property "LCSC Part #" "C25796"
 			(at 82.55 74.93 90)
 			(effects
 				(font
@@ -6796,7 +6796,7 @@
 				)
 			)
 		)
-		(property "Value" "47k"
+		(property "Value" "56k"
 			(at 89.916 74.93 90)
 			(effects
 				(font
@@ -6831,7 +6831,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C25792"
+		(property "LCSC Part #" "C25796"
 			(at 87.63 74.93 90)
 			(effects
 				(font

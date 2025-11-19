@@ -12710,7 +12710,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "2.2k"
 			(at 152.4 67.3099 0)
 			(effects
 				(font
@@ -12746,7 +12746,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C4109"
+		(property "LCSC Part #" "C25879"
 			(at 154.94 66.04 0)
 			(effects
 				(font
@@ -14099,7 +14099,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "2.2k"
 			(at 152.4 77.4699 0)
 			(effects
 				(font
@@ -14135,7 +14135,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C4109"
+		(property "LCSC Part #" "C25879"
 			(at 154.94 76.2 0)
 			(effects
 				(font

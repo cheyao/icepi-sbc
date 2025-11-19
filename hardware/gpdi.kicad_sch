@@ -4394,7 +4394,7 @@
 				)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "2.2k"
 			(at 129.286 77.47 90)
 			(effects
 				(font
@@ -4429,7 +4429,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C4109"
+		(property "LCSC Part #" "C25879"
 			(at 127 77.47 0)
 			(effects
 				(font
@@ -4769,7 +4769,7 @@
 				)
 			)
 		)
-		(property "Value" "33k"
+		(property "Value" "30k"
 			(at 153.416 46.99 90)
 			(effects
 				(font
@@ -4804,7 +4804,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C25779"
+		(property "LCSC Part #" "C25553"
 			(at 151.13 46.99 90)
 			(effects
 				(font
@@ -5228,7 +5228,7 @@
 				)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "2.2k"
 			(at 134.366 77.47 90)
 			(effects
 				(font
@@ -5263,7 +5263,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C4109"
+		(property "LCSC Part #" "C25879"
 			(at 132.08 77.47 0)
 			(effects
 				(font
@@ -6004,7 +6004,7 @@
 				)
 			)
 		)
-		(property "Value" "33k"
+		(property "Value" "30k"
 			(at 139.446 46.99 90)
 			(effects
 				(font
@@ -6039,7 +6039,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C25779"
+		(property "LCSC Part #" "C25553"
 			(at 137.16 46.99 90)
 			(effects
 				(font
