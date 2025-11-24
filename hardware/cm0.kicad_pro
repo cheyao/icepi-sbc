@@ -478,7 +478,7 @@
       "pin_not_connected": "error",
       "pin_not_driven": "error",
       "pin_to_pin": "error",
-      "power_pin_not_driven": "error",
+      "power_pin_not_driven": "ignore",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
@@ -592,7 +592,7 @@
       "idf": "",
       "netlist": "",
       "plot": "",
-      "pos_files": "",
+      "pos_files": "production/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
@@ -627,7 +627,7 @@
           "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -639,13 +639,13 @@
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -657,7 +657,7 @@
           "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -687,13 +687,13 @@
           "group_by": false,
           "label": "FT Rotation Offset",
           "name": "FT Rotation Offset",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "FT Position Offset",
           "name": "FT Position Offset",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,

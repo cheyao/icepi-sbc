@@ -7489,7 +7489,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -30.48 90)
 				(length 5.08)
 				(hide yes)
@@ -7508,7 +7508,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -30.48 90)
 				(length 5.08)
 				(hide yes)
@@ -7527,7 +7527,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -30.48 90)
 				(length 5.08)
 				(hide yes)
@@ -7546,7 +7546,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -30.48 90)
 				(length 5.08)
 				(hide yes)
@@ -7565,7 +7565,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -30.48 90)
 				(length 5.08)
 				(hide yes)
@@ -7584,7 +7584,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -30.48 90)
 				(length 5.08)
 				(hide yes)
@@ -7603,7 +7603,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -30.48 90)
 				(length 5.08)
 				(hide yes)
@@ -7622,7 +7622,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -30.48 90)
 				(length 5.08)
 				(hide yes)
@@ -7641,7 +7641,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -30.48 90)
 				(length 5.08)
 				(hide yes)
@@ -7660,7 +7660,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -30.48 90)
 				(length 5.08)
 				(hide yes)
@@ -7679,7 +7679,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -30.48 90)
 				(length 5.08)
 				(hide yes)
@@ -7698,7 +7698,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -30.48 90)
 				(length 5.08)
 				(hide yes)
@@ -7717,7 +7717,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -30.48 90)
 				(length 5.08)
 				(hide yes)
@@ -7736,7 +7736,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -30.48 90)
 				(length 5.08)
 				(hide yes)
@@ -7755,7 +7755,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -30.48 90)
 				(length 5.08)
 				(hide yes)
@@ -7774,7 +7774,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -30.48 90)
 				(length 5.08)
 				(hide yes)
@@ -7793,7 +7793,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -30.48 90)
 				(length 5.08)
 				(hide yes)
@@ -7812,7 +7812,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -30.48 90)
 				(length 5.08)
 				(hide yes)
@@ -7831,7 +7831,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -30.48 90)
 				(length 5.08)
 				(hide yes)
@@ -7850,7 +7850,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -30.48 90)
 				(length 5.08)
 				(hide yes)
@@ -7869,7 +7869,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -30.48 90)
 				(length 5.08)
 				(hide yes)
@@ -7888,7 +7888,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -30.48 90)
 				(length 5.08)
 				(hide yes)
@@ -7907,7 +7907,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -30.48 90)
 				(length 5.08)
 				(hide yes)
@@ -7926,7 +7926,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -30.48 90)
 				(length 5.08)
 				(hide yes)
@@ -7945,7 +7945,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -30.48 90)
 				(length 5.08)
 				(hide yes)
@@ -7964,7 +7964,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -30.48 90)
 				(length 5.08)
 				(hide yes)
@@ -7983,7 +7983,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -30.48 90)
 				(length 5.08)
 				(hide yes)
@@ -8002,7 +8002,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -30.48 90)
 				(length 5.08)
 				(hide yes)
@@ -8021,7 +8021,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -30.48 90)
 				(length 5.08)
 				(hide yes)
@@ -8040,7 +8040,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -30.48 90)
 				(length 5.08)
 				(hide yes)
@@ -8059,7 +8059,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -30.48 90)
 				(length 5.08)
 				(hide yes)
@@ -8078,7 +8078,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -30.48 90)
 				(length 5.08)
 				(hide yes)
@@ -8097,7 +8097,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -30.48 90)
 				(length 5.08)
 				(hide yes)
@@ -8116,7 +8116,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -30.48 90)
 				(length 5.08)
 				(hide yes)
@@ -8135,7 +8135,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -30.48 90)
 				(length 5.08)
 				(hide yes)
@@ -8154,7 +8154,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -30.48 90)
 				(length 5.08)
 				(hide yes)
@@ -8173,7 +8173,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -30.48 90)
 				(length 5.08)
 				(hide yes)
@@ -8192,7 +8192,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -30.48 90)
 				(length 5.08)
 				(hide yes)
@@ -8211,7 +8211,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -30.48 90)
 				(length 5.08)
 				(hide yes)
@@ -8230,7 +8230,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -30.48 90)
 				(length 5.08)
 				(hide yes)
@@ -8249,7 +8249,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -30.48 90)
 				(length 5.08)
 				(hide yes)
@@ -8268,7 +8268,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -30.48 90)
 				(length 5.08)
 				(hide yes)
@@ -8287,7 +8287,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -30.48 90)
 				(length 5.08)
 				(hide yes)
@@ -8306,7 +8306,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -30.48 90)
 				(length 5.08)
 				(hide yes)
@@ -8325,7 +8325,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -30.48 90)
 				(length 5.08)
 				(hide yes)
@@ -8344,7 +8344,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -30.48 90)
 				(length 5.08)
 				(hide yes)
@@ -8363,7 +8363,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -30.48 90)
 				(length 5.08)
 				(hide yes)
@@ -15796,6 +15796,194 @@
 					)
 				)
 				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "SY6280AAC"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U9"
+			(at 0 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SY6280AAC"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C55136.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1 Active High High Side Switch SOT-23-5 Power Distribution Switches, Load Drivers RoHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C55136"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "90"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "Low Loss Power Distribution Switch"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SY6280AAC_1_1"
+			(rectangle
+				(start -7.62 6.35)
+				(end 7.62 -6.35)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin power_in line
+				(at -10.16 3.81 0)
+				(length 2.54)
+				(name "IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -10.16 -1.27 0)
+				(length 2.54)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -8.89 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 10.16 3.81 180)
+				(length 2.54)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 10.16 -1.27 180)
+				(length 2.54)
+				(name "ISET"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)

@@ -282,8 +282,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J10"
-				(at -0.889 12.7 0)
+			(property "Reference" "J"
+				(at 0 12.192 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -291,7 +291,7 @@
 				)
 			)
 			(property "Value" "AudioJack_PJ-342"
-				(at -0.889 10.16 0)
+				(at 0 9.652 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -317,33 +317,6 @@
 				)
 			)
 			(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part #" "C7507452"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "FT Position Offset" "-0.3175,0.4445"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "FT Rotation Offset" ""
 				(at 0 0 0)
 				(effects
 					(font
