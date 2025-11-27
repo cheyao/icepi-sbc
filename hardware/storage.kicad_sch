@@ -6699,7 +6699,7 @@
 				(hide yes)
 			)
 		)
-		(property "FT Position Offset" "0,0.381"
+		(property "FT Position Offset" "0,0.081"
 			(at 120.65 99.06 0)
 			(effects
 				(font

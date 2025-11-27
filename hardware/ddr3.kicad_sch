@@ -2443,6 +2443,12 @@
 		(uuid "6042c703-122c-4914-a873-3f755815a6d8")
 	)
 	(junction
+		(at 233.68 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "647cdfa3-647d-4649-8c2e-8d089e6d0e76")
+	)
+	(junction
 		(at 187.96 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2561,6 +2567,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ea4e622d-898d-406f-952f-31f76b26fc81")
+	)
+	(junction
+		(at 233.68 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8cb32b8-52db-4892-a513-298d0b281c91")
 	)
 	(junction
 		(at 264.16 107.95)
@@ -3380,6 +3392,16 @@
 		)
 		(uuid "330b84b9-a50f-4ca9-bc5c-e0a5b83db326")
 	)
+	(wire
+		(pts
+			(xy 223.52 152.4) (xy 223.52 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "350229bd-ea5b-4d31-8158-75ae03f3dfe3")
+	)
 	(bus
 		(pts
 			(xy 123.19 86.36) (xy 123.19 83.82)
@@ -3769,6 +3791,16 @@
 			(type default)
 		)
 		(uuid "5f93aee3-06cf-4824-a752-10636160e6fd")
+	)
+	(wire
+		(pts
+			(xy 223.52 142.24) (xy 233.68 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61a0c619-a0e6-4e99-a06e-11ef0cfcd689")
 	)
 	(wire
 		(pts
@@ -4212,6 +4244,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 143.51) (xy 223.52 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93582b08-cbb5-4bfd-9a26-6a957e4fb61c")
+	)
+	(wire
+		(pts
 			(xy 162.56 81.28) (xy 162.56 80.01)
 		)
 		(stroke
@@ -4459,6 +4501,16 @@
 			(type default)
 		)
 		(uuid "afcd440f-f902-453f-8160-69cba7ec32b8")
+	)
+	(wire
+		(pts
+			(xy 233.68 152.4) (xy 223.52 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b05e32db-50ec-4974-8f96-6c2d3c3a8351")
 	)
 	(bus
 		(pts
@@ -13257,6 +13309,102 @@
 			(project "cm0"
 				(path "/b53f5dbb-8078-4818-9e8f-fdf90ba6d854/32a4bb18-2695-4537-bbd4-f872ec13cb53"
 					(reference "C50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 223.52 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "73f9c7d8-3fa6-46e2-bd89-515cdb85e3d3")
+		(property "Reference" "C138"
+			(at 224.282 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 224.282 149.606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 224.4852 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 223.52 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 223.52 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 223.52 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 223.52 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 223.52 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2181ebb9-288b-4cf9-a453-41e7801759d7")
+		)
+		(pin "1"
+			(uuid "6f0a9d84-1f70-45fe-9146-3c516dff4b7b")
+		)
+		(instances
+			(project "cm0"
+				(path "/b53f5dbb-8078-4818-9e8f-fdf90ba6d854/32a4bb18-2695-4537-bbd4-f872ec13cb53"
+					(reference "C138")
 					(unit 1)
 				)
 			)
