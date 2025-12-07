@@ -4,6 +4,11 @@ A low-cost single-board computer for the H3 CPU: A cheap yet powerful Linux devi
 
 ![](https://hc-cdn.hel1.your-objectstorage.com/s/v3/65acf57737127a090191e2a362e5340783381ce1_image.png)
 
+| Interested? [Join the waitlist!](https://cyao.dev/subscribe.html) | Check out [Icepi Zero](https://github.com/cheyao/icepi-zero) too |
+| ----------------------------------------------------------------- | ---------------------------------------------------------------- |
+
+If there's a lot of people interested, there's a chance that I'll sell this at a relatively low price :)
+
 ## Features
 
 - H3 Processor
@@ -36,8 +41,3 @@ It will be submitted to OSHWA for review once my prototypes come back
 Any questions? Dm `@Cyao.` on Discord (Send a friend request or join the KiCAD Discord server) or send an email to `cyao _at_ duck.com`!
 
 More info coming soon...
-    
-| Interested? [Keep me up to date!]() | Check out my other [Icepi Zero](https://github.com/cheyao/icepi-zero) project |
-| ----------------------------------- | ----------------------------------------- |
-
-If there's a lot of people interested, there's a chance that I'll sell this at a relatively low price :)
