@@ -56,3 +56,11 @@ It is also OSHWA certified under the identifier [FR000029](https://certification
 
 Any questions? Dm `@Cyao.` on Discord (Send a friend request or join the KiCAD Discord server) or send an email to `cyao _at_ duck.com`!
 
+![](https://hc-cdn.hel1.your-objectstorage.com/s/v3/4a34028fe20bc106_img_0925.jpg)
+
+## Bonus
+
+POV: Running Android on the single board computer to study Eigenvectors in the middle of the night:
+
+![](https://hc-cdn.hel1.your-objectstorage.com/s/v3/e743db0dbd66e00a_android-on-sbc-not-pretty.jpg)
+
