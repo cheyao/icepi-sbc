@@ -8,7 +8,7 @@ The SBC can boot either from a SD-Card, or the eMMC.
 
 This board should be compatiable with the Orange Pi Linux images! But I might make my own Linux image when I get my hands on the boards.
 
-## Andoid
+## Android
 
 Check out the https://www.h3droid.com/ project! I'll try and port it over when I have time.
 
